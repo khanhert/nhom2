@@ -2,12 +2,12 @@ using namespace std;
 
 
 
-int tich(int a, int b);
+int hieu(int a, int b);
 
-//TinhTich
-int tich(int a, int b)
+//TinhHieu
+int hieu(int a, int b)
 {
-	return a * b;
+	return a - b;
 
 }
 
@@ -26,7 +26,7 @@ int main()
 	cin >> b;
 
 
-	cout << "Tich 2 so " << a << " va " << b << " la: " << tich(a, b);
+	cout << "Hieu 2 so " << a << " va " << b << " la: " << hieu(a, b);
 
 
 
