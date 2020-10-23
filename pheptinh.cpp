@@ -43,8 +43,6 @@ int main()
 
 
 	cout << "Hieu 2 so " << a << " va " << b << " la: " << hieu(a, b);
-
-
 	cout << "Tich 2 so " << a << " va " << b << " la: " << tich(a, b);
 	cout << "Thuong 2 so " << a << " va " << b << " la: " << thuong(a, b);
 	cout << "\nTong 2 so " << a << " va " << b << " la: " << tong(a, b);
