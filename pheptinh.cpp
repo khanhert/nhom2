@@ -3,14 +3,18 @@ using namespace std;
 
 
 int tich(int a, int b);
-
+float thuong(int a, int b);
 //TinhTich
 int tich(int a, int b)
 {
 	return a * b;
 
 }
+float thuong(int a, int b)
+{
+	return a / b;
 
+}
 
 int main()
 {
@@ -27,7 +31,7 @@ int main()
 
 
 	cout << "Tich 2 so " << a << " va " << b << " la: " << tich(a, b);
-
+	cout << "Thuong 2 so " << a << " va " << b << " la: " << thuong(a, b);
 
 
 	
