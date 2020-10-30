@@ -5,34 +5,23 @@ using namespace std;
 
 
 
-//TinhHieu
+
 int tong(int a);
 
 
 
-int tong(int a)
+int tong(int a, int b)
 {
-	rand(0,100);
-	 
+	 a=rand(0,100);
+	b=rand(0,100);
+	return a-b;
 }
 int main()
 {
 	int a;
 	int b;
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
-
-
-
-	cout << "Nhap vao so a:";
-	cin >> a;
-	cout << "Nhap vao so b:";
-	cin >> b;
-
-
-
-	
-	
-	cout << "\nTong 2 so " << a << " va " << b << " la: " << tong(a);
+	cout << "\nTong 2 so " << a << " va " << b << " la: " << tong(a,b);
 
 
 	
